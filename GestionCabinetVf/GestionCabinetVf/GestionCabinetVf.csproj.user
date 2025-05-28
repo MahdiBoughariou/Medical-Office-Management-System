@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AjouterConsultationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AjouterMedicamentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AjouterOrdonnanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AjouterPatientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AjouterRdvForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ListeConsultationsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ListeMedicamentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ListePatientsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ListeRdvsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MedecinDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ModifierMedicamentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ModifierPatientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ModifierRdvForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SecretaireDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Rechercher mes RDVs";
+}
+
+<h2>Consulter mes Rendez-vous</h2>
+
+<form asp-action="Resultats" method="post" class="mt-4">
+    <div class="form-group">
+        <label for="telephone">Numéro de téléphone :</label>
+        <input type="text" class="form-control" id="telephone" name="telephone" required />
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Voir mes RDVs</button>
+</form>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-danger mt-3">@ViewBag.Message</div>
+}
+

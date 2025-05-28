@@ -1,0 +1,32 @@
+﻿@model List<GestionCabinetWeb.Models.Rdv>
+
+@{
+    ViewData["Title"] = "Mes Rendez-vous";
+}
+
+<h2>Mes Rendez-vous à venir</h2>
+
+@if (!Model.Any())
+{
+    <p>Aucun rendez-vous à venir.</p>
+}
+else
+{
+    <table class="table table-striped mt-4">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Heure</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var rdv in Model)
+            {
+                <tr>
+                    <td>@rdv.DateRdv.ToString("yyyy-MM-dd")</td>
+                    <td>@rdv.DateRdv.ToString("HH:mm")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
